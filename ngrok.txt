@@ -1,0 +1,16 @@
+ngrok config add-authtoken <token>
+ngrok http 80
+
+9U59UPGMTD
+WE9KPG7XW8
+WK45FK94WK
+9REN8PHNNG
+DKQN3DDBPY
+PA6SV2Q4PD
+JSABDRK8DT
+H6P746GPNC
+S2MJJTZPD8
+CSRRSNFRXN
+
+C:\>ngrok config add-authtoken cr_3BQOvtJiOrS0Z3XVzDJOzxngHSD
+Authtoken saved to configuration file: C:\Users\rasolonjanahary\AppData\Local\ngrok\ngrok.yml
