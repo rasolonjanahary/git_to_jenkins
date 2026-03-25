@@ -10,13 +10,13 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t ubuntu-git .'
+                sh 'docker build -t nginx-git .'
             }
         }
 
         stage('Run Container') {
             steps {
-                sh 'docker run ubuntu-git git --version'
+                sh 'docker run nginx-git git --version'
             }
         }
     }
